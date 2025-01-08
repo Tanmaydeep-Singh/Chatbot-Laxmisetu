@@ -1,0 +1,165 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I assist you?", "Hi there! How can I help you today?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care"],
+      "responses": ["Goodbye! Have a great day!", "See you next time!"]
+    },
+    {
+      "tag": "about_app",
+      "patterns": [
+        "What is this app?",
+        "Tell me about this app",
+        "What can I do here?"
+      ],
+      "responses": [
+        "This app is designed to provide financial education, investment suggestions, and personalized budgeting tools. It also offers banking comparisons and community support to empower users."
+      ]
+    },
+    {
+      "tag": "app_purpose",
+      "patterns": [
+        "What is the purpose of this app?",
+        "Why was this app created?",
+        "What is the mission of this app?"
+      ],
+      "responses": [
+        "The purpose of this app is to empower rural communities, especially women, by offering accessible financial education, personalized advice, and tools for managing money effectively."
+      ]
+    },
+    {
+      "tag": "financial_advice",
+      "patterns": [
+        "How can I invest?",
+        "I need budgeting tips",
+        "Help with financial planning",
+        "Can you suggest investment options?",
+        "How to save money?"
+      ],
+      "responses": [
+        "Sure, I can help with financial advice. Are you looking for investment suggestions or budgeting tips?",
+        "I can provide personalized financial education and tools to manage your budget better."
+      ]
+    },
+    {
+      "tag": "micro_investments",
+      "patterns": [
+        "What are micro-investments?",
+        "Can you explain micro-investment?",
+        "How do I start micro-investing?"
+      ],
+      "responses": [
+        "Micro-investments involve small amounts of money invested in financial products. Would you like to learn more or get started?"
+      ]
+    },
+    {
+      "tag": "banking_comparison",
+      "patterns": [
+        "Which bank is best?",
+        "Compare banking options for loans",
+        "What are the current interest rates?"
+      ],
+      "responses": [
+        "I can help you compare banks and their interest rates. Please provide the type of loan or banking service you are interested in."
+      ]
+    },
+    {
+      "tag": "community_support",
+      "patterns": [
+        "How can I connect with mentors?",
+        "Are there community support options?",
+        "Can I learn from successful entrepreneurs?"
+      ],
+      "responses": [
+        "We offer connections with mentors and successful women entrepreneurs. Would you like to join a community or get personalized advice?"
+      ]
+    },
+    {
+      "tag": "language_support",
+      "patterns": [
+        "Do you support local languages?",
+        "Can I use this app in my language?",
+        "Is there language translation available?"
+      ],
+      "responses": [
+        "Yes, we support multiple local languages to make financial education accessible to everyone."
+      ]
+    },
+    {
+      "tag": "chatbot_features",
+      "patterns": [
+        "What can you do?",
+        "What features does this chatbot have?",
+        "How can you assist me?"
+      ],
+      "responses": [
+        "I can assist with financial education, budgeting, investment suggestions, banking comparisons, and connecting with mentors. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "problem_statement",
+      "patterns": [
+        "What problem does this app solve?",
+        "Why should I use this app?",
+        "What is the app's purpose?"
+      ],
+      "responses": [
+        "This app aims to tackle the issue of financial illiteracy, particularly in rural areas. It offers tools and support to help users make informed financial decisions and achieve financial independence."
+      ]
+    },
+    {
+      "tag": "features",
+      "patterns": [
+        "What features does the app have?",
+        "Tell me about the app's features",
+        "What tools are available?"
+      ],
+      "responses": [
+        "The app includes features such as personalized financial advice, investment suggestions, budgeting tools, banking comparisons, and a multilingual chatbot for 24/7 support."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How do I contact support?",
+        "I need help",
+        "Can I talk to a human?"
+      ],
+      "responses": [
+        "You can reach out to our support team through the 'Contact Us' section of the app or let me know your query, and I will do my best to assist."
+      ]
+    },
+    {
+      "tag": "privacy",
+      "patterns": [
+        "Is my data secure?",
+        "What about privacy?",
+        "How do you protect my information?"
+      ],
+      "responses": [
+        "Your data is secure with us. We use Firebase Authentication, encryption, and role-based access controls to ensure your privacy and security."
+      ]
+    },
+    {
+      "tag": "scalability",
+      "patterns": [
+        "Can this app handle many users?",
+        "What about future updates?",
+        "Is the app scalable?"
+      ],
+      "responses": [
+        "Yes, the app is designed with scalability in mind. It can handle a growing user base and supports future features and updates seamlessly."
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot"],
+      "responses": ["You're welcome! Let me know if you need any further assistance."]
+    }
+  ]
+}
