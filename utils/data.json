@@ -160,6 +160,43 @@
       "tag": "thank_you",
       "patterns": ["Thank you", "Thanks", "Thanks a lot"],
       "responses": ["You're welcome! Let me know if you need any further assistance."]
+    },
+    {
+      "tag": "financial_terms",
+      "patterns": [
+        "What is interest rate?",
+        "What is inflation?",
+        "Can you explain GDP?",
+        "What is the meaning of compound interest?",
+        "Tell me about stocks and bonds?"
+      ],
+      "responses": [
+        {
+          "term": "Interest Rate",
+          "definition": "An interest rate is the percentage charged on a loan or paid on savings and investments. It is expressed as an annual percentage rate (APR).",
+          "example": "If you borrow $1,000 at an interest rate of 5%, you'll pay $50 in interest over a year."
+        },
+        {
+          "term": "Inflation",
+          "definition": "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power over time.",
+          "example": "If inflation is 2% annually, a $100 item will cost $102 next year."
+        },
+        {
+          "term": "GDP (Gross Domestic Product)",
+          "definition": "GDP represents the total value of all goods and services produced in a country over a specific period.",
+          "example": "A country's GDP grew by 3% this year, meaning its economy expanded by 3%."
+        },
+        {
+          "term": "Compound Interest",
+          "definition": "Compound interest is the interest calculated on both the initial principal and the accumulated interest from previous periods.",
+          "example": "If you invest $100 at a 5% annual interest rate, after one year you will have $105. After two years, you will have $110.25."
+        },
+        {
+          "term": "Stocks and Bonds",
+          "definition": "Stocks are shares of ownership in a company, while bonds are debt securities where you lend money to an entity in exchange for periodic interest payments and the return of principal at maturity.",
+          "example": "If you buy stocks, you own a small part of a company. If you buy bonds, you're lending money to a company or government."
+        }
+      ]
     }
   ]
 }

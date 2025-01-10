@@ -11,4 +11,5 @@ def read_root():
 def chat_endpoint(message: str):
     user_message = message
     response = get_chatbot_response(user_message)
+    print(response)
     return {"response": response}
